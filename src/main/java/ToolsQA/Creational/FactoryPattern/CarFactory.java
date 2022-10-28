@@ -14,7 +14,7 @@ public class CarFactory {
         } else if (type == CarType.SEDAN) {
             return new SedanCar();
         } else {
-            throw new IllegalArgumentException("Can't return developer, unknown developerType: " + type);
+            throw new IllegalArgumentException("Can't return Car, unknown Cartype: " + type);
         }
     }
 }
