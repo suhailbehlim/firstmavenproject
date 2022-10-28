@@ -1,4 +1,4 @@
-package ToolsQA;
+package ToolsQA.Creational.Singelton;
 
 class Singelton {
     //step- make a private property 
@@ -13,7 +13,7 @@ class Singelton {
     }
   
     public void printMessage(){
-       System.out.println("Hello from Singleton object!!!");
+       System.out.println("Hello from Singleton object!");
     }
  }
   
@@ -21,7 +21,7 @@ class Singelton {
     public static void main(String[] args) {
   
        Singelton object = Singelton.getInstance();
-  
+
        //show the message
        object.printMessage();
     }
